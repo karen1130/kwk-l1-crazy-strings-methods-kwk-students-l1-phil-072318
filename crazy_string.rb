@@ -1,8 +1,8 @@
 # write your method here
 
-def crazy_strings("Hello","Friends")
+def crazy_strings(a, b)
   puts crazy_strings.upcase.reverse
-  puts sentence.tr(s, z) 
+  puts sentence.tr("s", "z") 
 end
 
-crazy_strings
+crazy_strings(a = "Hellos", b = "Friends")
