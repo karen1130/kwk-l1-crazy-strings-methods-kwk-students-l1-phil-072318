@@ -5,4 +5,4 @@ def crazy_strings(a, b)
   puts sentence.tr("s", "z") 
 end
 
-crazy_strings(a = "Hellos", b = "Friends")
+crazy_strings("Hellos", "Friends")
