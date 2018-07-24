@@ -1,8 +1,9 @@
 # write your method here
 
 def crazy_strings(a, b)
-  puts crazy_strings.upcase.reverse
-  puts crazy_strings.tr("s", "z") 
+  puts a.upcase.reverse
+  puts b.tr("s", "z") 
 end
 
-crazy_strings("Hellos", "Friends")
+crazy_strings("Hello", "Friends")
+
